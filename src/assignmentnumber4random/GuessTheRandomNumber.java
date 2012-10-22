@@ -77,7 +77,7 @@ public class GuessTheRandomNumber
 			}
 			catch(java.util.InputMismatchException e)
 			{
-				System.out.println("You must enter a number only.");
+				System.out.println("You must enter an integer only.");
 				input.next();
 			}
 		}
